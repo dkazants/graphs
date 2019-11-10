@@ -67,7 +67,7 @@ class Graphs():
 
 router = Graphs(edges, nodes)
 print(router)
-
+### my comments added
 affected_nodes = set()
 for remove_n in range(nodes):
     if router.chk_if_broken(remove_n):
